@@ -17,21 +17,15 @@ h1 {
   text-align: center;
 }
 
-nav {
+.text-align-left {
+  text-align: left;
+}
+
+header {
   background-color: #ebd469;
 }
-nav a {
-  font-size: 20px;
-}
-nav a #logo-slika {
+header .logo-holder .logo-img img {
   width: 200px;
-}
-nav a #logo-slika img {
-  width: 100%;
-}
-nav a #logo-text {
-  text-align: center;
-  margin: auto;
 }
 
 main {
