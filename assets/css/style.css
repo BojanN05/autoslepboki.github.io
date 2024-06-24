@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  text-decoration: none;
+  text-align: center;
+}
+
+nav {
+  background-color: #ebd469;
+}
+nav a {
+  font-size: 20px;
+}
+nav a #logo-slika {
+  width: 200px;
+}
+nav a #logo-slika img {
+  width: 100%;
+}
+nav a #logo-text {
+  text-align: center;
+  margin: auto;
+}
+
+main {
+  background-color: #f5f5f5;
+}/*# sourceMappingURL=style.css.map */
