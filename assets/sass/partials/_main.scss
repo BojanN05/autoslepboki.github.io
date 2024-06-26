@@ -1,0 +1,19 @@
+main{
+    .services{
+        position: relative;
+        background-image: url("../../slike/slika_pocetna_cena.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+
+        &::before{
+            @include dark-overlay;
+        }
+        .services-content{
+            position: relative;
+            z-index: 3;
+            font-size: 1.2rem;
+        }
+    }
+}
