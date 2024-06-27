@@ -1,6 +1,7 @@
-@import "partials/breakpoints";
-@import "partials/variables";
-@import "partials/mixins";
+@import "partials/global setings/breakpoints";
+@import "partials/global setings/variables";
+@import "partials/global setings/mixins";
 @import "partials/header";
 @import "partials/main";
 @import "partials/footer.scss";
+@import "partials/autor/autor_responsive";
