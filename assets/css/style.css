@@ -36,6 +36,13 @@ header .logo-holder .logo-img img {
 }
 header .nav-link {
   font-size: 1.5rem;
+  text-decoration: none;
+  color: #02948f;
+  transition: all 0.3s ease;
+}
+header .nav-link:hover, header .nav-link.active {
+  color: #ff0000;
+  font-weight: bold;
 }
 header a {
   text-decoration: none;

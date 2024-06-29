@@ -1,18 +1,29 @@
-header{
+header {
     background-color: $bgc;
-    .logo-holder{
-        .logo-img{
-            img{
-                width: 200px;
-            }
+  
+    .logo-holder {
+      .logo-img {
+        img {
+          width: 200px;
         }
+      }
     }
-
-    .nav-link{
-        font-size: 1.5rem;
+  
+    .nav-link {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #02948f;
+      transition: all 0.3s ease; 
+  
+      &:hover,
+      &.active {
+        color: #ff0000; 
+        font-weight: bold; 
+        
+      }
     }
     a{
         text-decoration: none;
-        color: #02948f;
+      color: #02948f;
     }
-}
+  }
