@@ -21,14 +21,16 @@
         <header>
             <div class="row p-0 m-0">
               <div class="col">
-                <div class="container logo-holder d-flex flex-row justify-content-center align-items-center">
-                  <div class="logo-img">
-                    <img src="slike/Vintage_Retro_Tow_Truck_Logo-removebg-preview.png" alt="Logo">
+                <a href="index.html">
+                  <div class="container logo-holder d-flex flex-row justify-content-center align-items-center">
+                    <div class="logo-img">
+                      <img src="slike/Vintage_Retro_Tow_Truck_Logo-removebg-preview.png" alt="Logo">
+                    </div>
+                    <div class="logo-text naslov">
+                      <h1>Auto-Šlep Boki</h1>
+                    </div>
                   </div>
-                  <div class="logo-text">
-                    <h1>Auto-Šlep Boki</h1>
-                  </div>
-                </div>
+                </a>
               </div>
               <div class="col d-flex">
                 <nav class="navbar navbar-expand-lg">
@@ -61,55 +63,95 @@
             <div class="container-fluid d-flex justify-content-center align-items-center p-5">
                 <button type="button" class="btn btn-outline-warning fs-2"><i class="fa-solid fa-phone fs-3 p-2"></i>Pozovite nas na +381-212-555-333</button>
               </div>
-            <div class="container mt-5">
-                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center d-flex justify-content-center align-items-stretch">
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 shadow-sm h-100">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Šlep služba Beograd</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> u jednom pravcu</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Do 10 km – 4000 RSD</li>
-                                    <li>Do 15 km – 4500 RSD</li>
-                                    <li>Do 30 km – 5500 RSD</li>
-                                </ul>
-                                <button type="button" class="w-100 btn btn-lg btn-outline-warning">Zatraži uslugu</button>
-                            </div>
-                        </div>
+              <div class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm h-100">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Šlep služba van Beograda</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> u jednom pravcu</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Do 10 km – 4000 RSD</li>
+                          <li>Do 15 km – 4500 RSD</li>
+                          <li>Do 30 km – 5500 RSD</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-warning" data-bs-toggle="modal" data-bs-target="#contactModal">Zatraži uslugu</button>
+                      </div>
                     </div>
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 shadow-sm h-100">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Šlep služba van Beograda</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> u jednom pravcu</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Do 100 km – 140 RSD po km</li>
-                                    <li>Preko 100 km – po upitu, shodno dogovoru</li>
-                                </ul>
-                                <button type="button" class="w-100 btn btn-lg btn-outline-warning ">Zatraži uslugu</button>
-                            </div>
-                        </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm h-100">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Šlep služba van Beograda</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> u jednom pravcu</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Do 100 km – 140 RSD po km</li>
+                          <li>Preko 100 km – po upitu, shodno dogovoru</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-warning" data-bs-toggle="modal" data-bs-target="#contactModal">Zatraži uslugu</button>
+                      </div>
                     </div>
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 shadow-sm border-warning h-100">
-                            <div class="card-header py-3 text-white bg-warning border-warning">
-                                <h4 class="my-0 fw-normal">Šlep služba za strane zemlje</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> po dogovoru</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Do 500 km – 200 RSD po km</li>
-                                    <li>Preko 500 km – po upitu, shodno dogovoru</li>
-                                </ul>
-                                <button type="button" class="w-100 btn btn-lg btn-outline-warning">Kontaktirajte nas</button>
-                            </div>
-                        </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-warning h-100">
+                      <div class="card-header py-3 text-white bg-warning border-warning">
+                        <h4 class="my-0 fw-normal">Šlep služba za strane zemlje</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Cena po km<small class="text-muted fw-light"> po dogovoru</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Do 500 km – 200 RSD po km</li>
+                          <li>Preko 500 km – po upitu, shodno dogovoru</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-warning" data-bs-toggle="modal" data-bs-target="#contactModalStraneZemlje">Kontaktirajte nas</button>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              
+              <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="contactModalLabel">Kontaktirajte nas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Za više informacija, molimo vas da nas kontaktirate na broj telefona:</p>
+                      <h3><a href="tel:+381-212-555-333">+381-212-555-333</a></h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="modal fade" id="contactModalStraneZemlje" tabindex="-1" aria-labelledby="contactModalStraneZemljeLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="contactModalStraneZemljeLabel">Kontaktirajte nas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Za više informacija o šlep službi za strane zemlje, molimo vas da nas kontaktirate na broj telefona:</p>
+                      <h3><a href="tel:+381-212-555-333">+381-212-555-333</a></h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
                 <div class="container p-3">
